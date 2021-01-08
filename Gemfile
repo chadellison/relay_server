@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'puma', '~> 4.1'
 gem 'pg'
 gem 'rtesseract'
+gem 'rack-cors'
+gem 'redis'
 # gem 'cloudmersive-image-recognition-api-client', '~> 1.2', '>= 1.2.9'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'

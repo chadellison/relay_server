@@ -100,6 +100,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
+    rack-cors (1.1.1)
+      rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.3.4)
@@ -132,6 +134,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.2.5)
     rtesseract (3.1.2)
     simplecov (0.21.1)
       docile (~> 1.1)
@@ -165,7 +168,9 @@ DEPENDENCIES
   pg
   pry-rails
   puma (~> 4.1)
+  rack-cors
   rails (~> 6.0.3, >= 6.0.3.4)
+  redis
   rtesseract
   simplecov
   tzinfo-data

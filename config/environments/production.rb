@@ -28,6 +28,10 @@ Rails.application.configure do
   # config.action_dispatch.x_sendfile_header = 'X-Sendfile' # for Apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for NGINX
 
+  config.action_cable.allowed_request_origins = [ 'https://artificial-vision.herokuapp.com', 'https://artificial-vision.herokuapp.com' ]
+  config.web_socket_server_url = "wss://artificial-vision.herokuapp.com/cable"
+  Rails.application.config.action_cable.allowed_request_origins = ['https://artificial-vision.herokuapp.com']
+
   # Store uploaded files on the local file system (see config/storage.yml for options).
   config.active_storage.service = :local
 
