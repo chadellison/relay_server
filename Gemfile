@@ -9,6 +9,8 @@ gem 'pg'
 gem 'rtesseract'
 gem 'rack-cors'
 gem 'redis'
+gem 'rmagick'
+# gem 'mini_magick'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do

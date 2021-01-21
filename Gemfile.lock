@@ -135,6 +135,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redis (4.2.5)
+    rmagick (4.1.2)
     rtesseract (3.1.2)
     simplecov (0.21.1)
       docile (~> 1.1)
@@ -171,6 +172,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.0.3, >= 6.0.3.4)
   redis
+  rmagick
   rtesseract
   simplecov
   tzinfo-data
